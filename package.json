@@ -1,0 +1,22 @@
+{
+  "name": "URLRequester",
+  "author": "",
+  "version": "1.0.0",
+  "description": "A simple CLI to request Websites via commandline",
+  "main": "./src/index.js",
+  "bin": {
+    "rurl": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc ./src/index.ts && rurl"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.4",
+    "axios": "^0.20.0",
+    "commander": "^6.1.0",
+    "enquirer": "^2.3.6"
+  }
+}
